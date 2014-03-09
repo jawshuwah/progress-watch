@@ -133,7 +133,7 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
 	 //Month
   static char date_month[] = "Month (Xxxxxxxxxxx)";
   //strftime(date_month, sizeof(date_month), "Month (%B)", tick_time);
-  strftime(date_month, sizeof(date_month), "%B %d", tick_time);
+  strftime(date_month, sizeof(date_month), "%B", tick_time);
   text_layer_set_text(month_layer, date_month);
 	
  	//day of week
@@ -143,7 +143,7 @@ void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
 	
 	//Day
   static char date_day[] = "Day Someday (00000)";
-  strftime(date_day, sizeof(date_day), "%A", tick_time);
+  strftime(date_day, sizeof(date_day), "%A (%d)", tick_time);
   text_layer_set_text(day_layer, date_day);
 	
   //Time

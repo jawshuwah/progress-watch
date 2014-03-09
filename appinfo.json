@@ -1,9 +1,9 @@
 {
-    "versionLabel": "1.0",
-    "uuid": "6038bab4-76c3-4d31-b62f-03c2d4283298",
+    "versionLabel": "1.2",
+    "uuid": "56500f68-342c-44e4-971e-95b1db6f6a2f",
     "appKeys": {},
     "longName": "progress-watch",
-    "versionCode": 1,
+    "versionCode": 2,
     "capabilities": [
         ""
     ],
